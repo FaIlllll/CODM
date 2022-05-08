@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Membersstyle.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous">
+</script>
+<script>
+//script here pwede nating gamitin yung menu for the javascript. lagyan nalang ng id per menu item
+
+	function showLeader(){
+            let text = "Continue";
+            let result = text.link("Leader.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "Denise Alutaya";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+        function showViceleader(){
+            let text = "Continue";
+            let result = text.link("Vleader.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "Vincent Mortel";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+        function showMem1(){
+            let text = "Continue";
+            let result = text.link("Memberone.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "Ysrael James Menes";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+        function showMem2(){
+            let text = "Continue";
+            let result = text.link("Membertwo.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "John Paul Galang";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+        
+        function showMem3(){
+            let text = "Continue";
+            let result = text.link("Memberthree.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "Carl Ashley F. Odulio";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+        
+        function showContact(){
+            let text = "Continue";
+            let result = text.link("Contacts.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+            let mbr = "Denise Alutaya";
+            documet.getElementById("hdng").innerHTML = mbr;
+        };
+</script>
+<title>Call Of Duty: Mobile Contacts Page</title>
+<link rel="shortcut icon" href="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/261892436_883241415682450_7788885183826336451_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=GjwVy2ZZxyEAX_TzUSw&_nc_ht=scontent.fmnl3-4.fna&oh=03_AVJd91JaytDhwCxCcLqf3Wk2pWuHY_5-kGk0yuQ-558AFg&oe=620DDB41">
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+                    <li>
+                        <button id="home" onclick="showContact()">Contact</button>
+                    </li>
+                <li>
+                    <button id="about" onclick="showLeader()">Leader</button></li>
+                    
+                <li>
+                <button id="video" onclick="showViceleader()">Vice Leader</button></li>
+                
+                <li>
+                <button id="esports" onclick="showMem1()">Member #1</button></li>
+                
+                <li>
+                <button id="survey" onclick="showMem2()">Member #2</button></li>
+                
+                <li>
+                <button id="contact" onclick="showMem3()">Member #3</button>
+                </li>
+            </ul>
+        </div>
+
+        <section class="section">
+
+  <img id="picture" src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/271263483_342254737538055_3648203475086951154_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_ohc=kOfoomldQKQAX-oRx16&_nc_ht=scontent.fmnl3-2.fna&oh=03_AVKHyjQHbATlzXgAGtXKTJghkGsKeTDoAvR54vJBAoleDA&oe=620DF3A1"/>
+
+  <div class="content">
+
+    <h1 class="title">
+      CONTACTS AND ABOUT US
+    </h1>
+    <b id="information">
+		<h2> OUR VICE LEADER </h2>
+		<h3 class="info">Name: Vincent Mortel </h3>
+		<h3 class="info">Age: 18 </h3>
+		<h3 class="info">Role: Vice leader </h3>
+		<h3 class="info">Contribution in the website: Coding and ideas </h3>
+      </b>
+
+  </div>
+</section>
+
+    <div id="customAlert">
+        <div id="box">
+            <DIv class="heading">
+                <h1 id="hdng"></h1>
+            </DIv>
+            <div class="content">
+                <p id="p1"> Click continue to move to the next page </P>
+                <button id="confirm"></button>
+            </div>
+        </div>
+    </div>
+	
+</div>
+</body>
+</html>

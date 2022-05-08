@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Surveystyle.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous">
+</script>
+<script>
+//script here pwede nating gamitin yung menu for the javascript. lagyan nalang ng id per menu item
+
+	function showHome(){
+            let text = "Home";
+            let result = text.link("index.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showAbout(){
+            let text = "About";
+            let result = text.link("About.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showVideo(){
+            let text = "Video";
+            let result = text.link("Video.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showEsports(){
+            let text = "Esports";
+            let result = text.link("Esports.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        
+        function showSurvey(){
+            let text = "Survey";
+            let result = text.link("Survey.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        
+        function showContacts(){
+            let text = "Contacts";
+            let result = text.link("Contacts.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+</script>
+<title>Call Of Duty: Mobile Survey Page</title>
+<link rel="shortcut icon" href="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/261892436_883241415682450_7788885183826336451_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=GjwVy2ZZxyEAX_TzUSw&_nc_ht=scontent.fmnl3-4.fna&oh=03_AVJd91JaytDhwCxCcLqf3Wk2pWuHY_5-kGk0yuQ-558AFg&oe=620DDB41">
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+                    <li>
+                        <button id="home" onclick="showHome()">Home</button>
+                    </li>
+                <li>
+                    <button id="about" onclick="showAbout()">About</button></li>
+                    
+                <li>
+                <button id="video" onclick="showVideo()">Video</button></li>
+                
+                <li>
+                <button id="esports" onclick="showEsports()">Esports</button></li>
+                
+                <li>
+                <button id="survey" onclick="showSurvey()">Survey</button></li>
+                
+                <li>
+                <button id="contact" onclick="showContacts()">Contacts</button>
+                </li>
+            </ul>
+        </div>
+
+        <section class="section">
+
+  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p320x320/271628352_1021224001763661_2865428899476130645_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=Yt10k9oKIdwAX8vMjGi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIc0MFU1SfQMlgtLW7CxqRNYgWMNavWE-BzJwzO5ZJvpQ&oe=620BDB5D" class="image"/>
+
+  <div class="content">
+
+    <h1 class="title">
+      PLEASE ANSWER THE SURVEY SINCERELY!!!
+    </h1>
+    <b class="paragraph">
+		<iframe id="video" width="420" height="345"
+		src="https://docs.google.com/forms/d/e/1FAIpQLScT1m_x6pjDjOtAeVi7LiS9E2Zcx3xAenBg4X0GvKLhIpDLZg/viewform?embedded=true">
+		</iframe>   	
+      </b>
+
+  </div>
+</section>
+
+    <div id="customAlert">
+        <div id="box">
+            <DIv class="heading">
+            </DIv>
+            <div class="content">
+                <p id="p1"> Click continue to move to the next page </P>
+                <button id="confirm"></button>
+            </div>
+        </div>
+    </div>
+	
+</div>
+</body>
+</html>

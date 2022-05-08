@@ -1,0 +1,124 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Esportsstyle.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous">
+</script>
+<script>
+//script here pwede nating gamitin yung menu for the javascript. lagyan nalang ng id per menu item
+
+	function showHome(){
+            let text = "Home";
+            let result = text.link("index.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showAbout(){
+            let text = "About";
+            let result = text.link("About.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showVideo(){
+            let text = "Video";
+            let result = text.link("Video.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        function showEsports(){
+            let text = "Esports";
+            let result = text.link("Esports.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        
+        function showSurvey(){
+            let text = "Survey";
+            let result = text.link("Survey.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+        
+        function showContacts(){
+            let text = "Contacts";
+            let result = text.link("Contacts.html");
+            customAlert.style.display='block';
+            document.getElementById("confirm").innerHTML = result;
+        };
+</script>
+<title>Call Of Duty: Mobile Esports Page</title>
+<link rel="shortcut icon" href="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/261892436_883241415682450_7788885183826336451_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=GjwVy2ZZxyEAX_TzUSw&_nc_ht=scontent.fmnl3-4.fna&oh=03_AVJd91JaytDhwCxCcLqf3Wk2pWuHY_5-kGk0yuQ-558AFg&oe=620DDB41">
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+         <div id="menu">
+        	<ul>
+                    <li>
+                        <button id="home" onclick="showHome()">Home</button>
+                    </li>
+                <li>
+                    <button id="about" onclick="showAbout()">About</button></li>
+                    
+                <li>
+                <button id="video" onclick="showVideo()">Video</button></li>
+                
+                <li>
+                <button id="esports" onclick="showEsports()">Esports</button></li>
+                
+                <li>
+                <button id="survey" onclick="showSurvey()">Survey</button></li>
+                
+                <li>
+                <button id="contact" onclick="showContacts()">Contacts</button>
+                </li>
+            </ul>
+        </div>
+	<div id="content">
+        <h1>THIS ARE THE LIST OF THE TOP 10 PROFESSIONALPLAYERS IN CALL OF DUTY: MOBILE</h1>
+	<p>&nbsp;</p>
+	<h3>AND ALSO PLEASE WATCH THE VIDEO ABOUT ONE OF THE PRO PLAYER'S HIGHLIGHTS</h3>
+	<h3>IN THE GAME</h3>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<iframe width="250" height="150"
+	src="https://youtube.com/embed/JBGisrV6Pq8">
+	</iframe>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<hr>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p><h3> TOP PLAYERS OF COD MOBILE </h3>
+	<br><br/>
+	<br>1. Chris "Simp" Lher<br/>
+	<br>2. Ian â€œC6â€� Porter<br/>
+	<br>3. Seth â€œScumpâ€� Abner<br/>
+	<br>4. Alec â€œArcitysâ€� Sanderson<br/>
+	<br>5. Anthony â€œShotzzyâ€� Cuevas-Castro<br/>
+	<br>6. McArthur â€œCelliumâ€� Jovel<br/>
+	<br>7. James â€œClaysterâ€� Eubanks<br/>
+	<br>8. Austin â€œSlasheRâ€� Liddicoat<br/>
+	<br>9. Dylan â€œEnvoyâ€� Hannon
+	<br/>
+	<br>10. Matthew â€œFormaLâ€� Piper<br/>
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+
+	</div>
+    <div id="customAlert">
+        <div id="box">
+            <DIv class="heading">
+            </DIv>
+            <div class="content">
+                <p id="p1"> Click continue to move to the next page </P>
+                <button id="confirm"></button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
